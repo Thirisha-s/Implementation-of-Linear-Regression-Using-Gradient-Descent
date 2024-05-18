@@ -16,7 +16,8 @@ To write a program to predict the profit of a city using the linear regression m
 6. predict target value for a new data point
 
 ## Program:
-```python
+```
+/*
 Program to implement the linear regression using gradient descent.
 Developed by: THIRISHA.S
 RegisterNumber:  212222230160
@@ -53,6 +54,7 @@ prediction=np.dot(np.append(1,new_Scaled),theta)
 prediction=prediction.reshape(-1,1)
 pre=scaler.inverse_transform(prediction)
 print(f"Predicted value: {pre}")
+*/
 ```
 
 
@@ -84,5 +86,3 @@ print(f"Predicted value: {pre}")
 ## Result:
 
 Thus the program to implement the linear regression using gradient descent is written and verified using python programming.
-
-
